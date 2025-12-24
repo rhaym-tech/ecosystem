@@ -1,10 +1,46 @@
 [
-  { "id": "fintech", "name": "FinTech" },
-  { "id": "edtech", "name": "EdTech" },
-  { "id": "healthtech", "name": "HealthTech" },
-  { "id": "ecommerce", "name": "E-Commerce" },
-  { "id": "logistics", "name": "Logistics" },
-  { "id": "agritech", "name": "AgriTech" },
-  { "id": "saas", "name": "SaaS" },
-  { "id": "marketplace", "name": "Marketplace" }
+  {
+    "id": "fintech",
+    "name": "FinTech"
+  },
+  {
+    "id": "edtech",
+    "name": "EdTech"
+  },
+  {
+    "id": "healthtech",
+    "name": "HealthTech"
+  },
+  {
+    "id": "ecommerce",
+    "name": "E-Commerce"
+  },
+  {
+    "id": "logistics",
+    "name": "Logistics"
+  },
+  {
+    "id": "agritech",
+    "name": "AgriTech"
+  },
+  {
+    "id": "saas",
+    "name": "SaaS"
+  },
+  {
+    "id": "marketplace",
+    "name": "Marketplace"
+  },
+  {
+    "id": "legaltech",
+    "name": "LegalTech"
+  },
+  {
+    "id": "insurtech",
+    "name": "InsurTech"
+  },
+  {
+    "id": "iot",
+    "name": "IoT"
+  }
 ]

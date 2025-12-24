@@ -11,7 +11,7 @@ import type { Category, Startup, SortOrder } from '@/types';
 const categories: Category[] = categoriesData;
 const startups: Startup[] = startupsData;
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 9;
 
 const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');

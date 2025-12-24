@@ -1,17 +1,52 @@
 [
   {
-    "name": "Yassir",
-    "foundedYear": 2017,
-    "categoryId": "logistics",
-    "website": "https://yassir.com",
-    "linkedin": "https://linkedin.com/company/yassir"
+    "name": "ALPAY",
+    "foundedYear": 2024,
+    "categoryId": "fintech",
+    "website": "https://alpay.dz",
+    "linkedin": "https://www.linkedin.com/company/alpayneo/"
   },
   {
-    "name": "TemTem One",
-    "foundedYear": 2019,
+    "name": "Amentech",
+    "foundedYear": 2022,
+    "categoryId": "fintech",
+    "website": "https://amentech.dz/",
+    "linkedin": "https://www.linkedin.com/company/amentech/"
+  },
+  {
+    "name": "Basseer",
+    "foundedYear": 2023,
+    "categoryId": "saas",
+    "website": "https://basseer.com",
+    "linkedin": "https://linkedin.com/company/basseer"
+  },
+  {
+    "name": "BK FIRE",
+    "foundedYear": 2015,
+    "categoryId": "saas",
+    "website": "https://bkfire.dz",
+    "linkedin": "https://linkedin.com/company/bk-fire"
+  },
+  {
+    "name": "CAMIO",
+    "foundedYear": 2022,
     "categoryId": "logistics",
-    "website": "https://temtemone.com",
-    "linkedin": "https://linkedin.com/company/temtemone"
+    "website": "https://camio.app",
+    "linkedin": "https://linkedin.com/company/camio"
+  },
+  {
+    "name": "CoCoding.ai",
+    "foundedYear": 2025,
+    "categoryId": "saas",
+    "website": "https://cocoding.ai",
+    "linkedin": "https://www.linkedin.com/company/cocoding/"
+  },
+  {
+    "name": "DZDOC",
+    "foundedYear": 2015,
+    "categoryId": "healthtech",
+    "website": "https://dzdoc.com",
+    "linkedin": "https://linkedin.com/company/dzdoc"
   },
   {
     "name": "Emploitic",
@@ -21,49 +56,240 @@
     "linkedin": "https://linkedin.com/company/emploitic"
   },
   {
-    "name": "Batolis",
-    "foundedYear": 2020,
-    "categoryId": "ecommerce",
-    "website": "https://batolis.com"
+    "name": "Fast Delivery",
+    "foundedYear": 2016,
+    "categoryId": "logistics",
+    "website": "https://fastapp.dz/",
+    "linkedin": "https://www.linkedin.com/company/fast-dz/"
   },
   {
-    "name": "Waitero",
+    "name": "Fentech",
+    "foundedYear": 2018,
+    "categoryId": "ai",
+    "website": "https://fentech.ai/",
+    "linkedin": "https://www.linkedin.com/company/fentech-solutions/"
+  },
+  {
+    "name": "Fridoc",
     "foundedYear": 2021,
     "categoryId": "saas",
-    "website": "https://waitero.com",
-    "linkedin": "https://linkedin.com/company/waitero"
+    "website": "https://fridoc.dz",
+    "linkedin": "https://linkedin.com/company/fridoc"
   },
   {
-    "name": "Sidra",
-    "foundedYear": 2019,
+    "name": "Garini",
+    "foundedYear": 2021,
+    "categoryId": "saas",
+    "website": "https://garini.dz/",
+    "linkedin": "https://linkedin.com/company/garini"
+  },
+  {
+    "name": "Goubba",
+    "foundedYear": 2021,
     "categoryId": "fintech",
-    "website": "https://sidra.dz",
-    "linkedin": "https://linkedin.com/company/sidra-dz"
+    "website": "https://goubba.com",
+    "linkedin": "https://linkedin.com/company/goubba"
   },
   {
-    "name": "Khibra Tech",
-    "foundedYear": 2018,
+    "name": "HexaFlex",
+    "foundedYear": 2023,
+    "categoryId": "saas",
+    "website": "https://hexaflexdev.com/",
+    "linkedin": "https://linkedin.com/company/hexaflexdev/"
+  },
+  {
+    "name": "Immotify",
+    "foundedYear": 2022,
+    "categoryId": "saas",
+    "website": "https://immotify.me/",
+    "linkedin": "https://linkedin.com/company/immotify"
+  },
+  {
+    "name": "KABAS",
+    "foundedYear": 2023,
+    "categoryId": "ai",
+    "website": "https://kabas-ai.com/",
+    "linkedin": "https://www.linkedin.com/company/kabas-ai/"
+  },
+  {
+    "name": "LabLabee",
+    "foundedYear": 2021,
     "categoryId": "edtech",
-    "website": "https://khibra.tech",
-    "linkedin": "https://linkedin.com/company/khibra-tech"
+    "website": "https://lablabee.com",
+    "linkedin": "https://linkedin.com/company/lablabee"
   },
   {
-    "name": "Tabib.dz",
-    "foundedYear": 2020,
-    "categoryId": "healthtech",
-    "website": "https://tabib.dz"
+    "name": "Legal Doctrine",
+    "foundedYear": 2018,
+    "categoryId": "legaltech",
+    "website": "https://legal-doctrine.com/",
+    "linkedin": "https://linkedin.com/company/legal-doctrine"
   },
   {
-    "name": "Fellahtna",
+    "name": "Maystro Delivery",
     "foundedYear": 2019,
-    "categoryId": "agritech",
-    "website": "https://fellahtna.com",
-    "linkedin": "https://linkedin.com/company/fellahtna"
+    "categoryId": "logistics",
+    "website": "https://maystro-delivery.com",
+    "linkedin": "https://linkedin.com/company/maystro-delivery"
   },
   {
-    "name": "Numidya",
+    "name": "Namla",
+    "foundedYear": 2021,
+    "categoryId": "saas",
+    "website": "https://namla.cloud/",
+    "linkedin": "https://www.linkedin.com/company/namlaedge"
+  },
+  {
+    "name": "Namlatic",
+    "foundedYear": 2019,
+    "categoryId": "saas",
+    "website": "https://namlatic.com",
+    "linkedin": "https://linkedin.com/company/namlatic"
+  },
+  {
+    "name": "Okadoo",
+    "foundedYear": 2024,
+    "categoryId": "marketplace",
+    "website": "https://okadoo.com",
+    "linkedin": "https://linkedin.com/company/okadoo"
+  },
+  {
+    "name": "Optos",
+    "foundedYear": 2024,
+    "categoryId": "logistics",
+    "website": "https://optos.io/"
+  },
+  {
+    "name": "Pratic Power",
+    "foundedYear": 2021,
+    "categoryId": "iot",
+    "website": "https://pratic-power.dz/",
+    "linkedin": "https://www.linkedin.com/company/cbc-altech/"
+  },
+  {
+    "name": "Prizy",
+    "foundedYear": 2020,
+    "categoryId": "fintech",
+    "website": "https://www.prizy.co/",
+    "linkedin": "https://www.linkedin.com/company/prizyglobal/"
+  },
+  {
+    "name": "Qareeb",
+    "foundedYear": 2023,
+    "categoryId": "saas",
+    "website": "https://www.qareeb.io",
+    "linkedin": "https://www.linkedin.com/company/qar-eeb/"
+  },
+  {
+    "name": "Realverse App",
+    "foundedYear": 2025,
+    "categoryId": "fintech",
+    "website": "https://realverse.site/",
+    "linkedin": "https://linkedin.com/company/realverse-app/"
+  },
+  {
+    "name": "SignLingo",
+    "foundedYear": 2023,
+    "categoryId": "edtech",
+    "website": "https://www.signlingoapp.com",
+    "linkedin": "https://www.linkedin.com/company/signlingoapp/"
+  },
+  {
+    "name": "Simpacte",
+    "foundedYear": 2022,
+    "categoryId": "saas",
+    "website": "https://simpacte.com",
+    "linkedin": "https://linkedin.com/company/simpacteco/"
+  },
+  {
+    "name": "SlickPay",
     "foundedYear": 2022,
     "categoryId": "fintech",
-    "website": "https://numidya.com"
+    "website": "https://www.slick-pay.com/",
+    "linkedin": "https://www.linkedin.com/company/slick-pay/"
+  },
+  {
+    "name": "SofizPay",
+    "foundedYear": 2023,
+    "categoryId": "fintech",
+    "website": "https://sofizpay.com",
+    "linkedin": "https://linkedin.com/company/sofizpay"
+  },
+  {
+    "name": "Spinet",
+    "foundedYear": 2021,
+    "categoryId": "saas",
+    "website": "https://spinetnfc.com/",
+    "linkedin": "https://www.linkedin.com/company/sarl-spinet-nfc/"
+  },
+  {
+    "name": "TalabaStore",
+    "foundedYear": 2017,
+    "categoryId": "ecommerce",
+    "website": "https://talabastore.dz",
+    "linkedin": "https://linkedin.com/company/talabastore"
+  },
+  {
+    "name": "Talenteo HR",
+    "foundedYear": 2022,
+    "categoryId": "saas",
+    "website": "https://talenteo.com/",
+    "linkedin": "https://www.linkedin.com/company/talenteo-hr/"
+  },
+  {
+    "name": "TemTem One",
+    "foundedYear": 2019,
+    "categoryId": "logistics",
+    "website": "https://temtemone.com",
+    "linkedin": "https://linkedin.com/company/temtemone"
+  },
+  {
+    "name": "Tisura Labs",
+    "foundedYear": 2025,
+    "categoryId": "saas",
+    "website": "https://tisura.xyz/",
+    "linkedin": "https://linkedin.com/company/tisura-labs"
+  },
+  {
+    "name": "UpGrowth",
+    "foundedYear": 2023,
+    "categoryId": "saas",
+    "website": "https://www.upgrowth.dz/",
+    "linkedin": "https://www.linkedin.com/company/upgrowth-dz/"
+  },
+  {
+    "name": "Vandista.dz",
+    "foundedYear": 2022,
+    "categoryId": "ecommerce",
+    "website": "https://vandista.dz",
+    "linkedin": "https://www.linkedin.com/company/vandista-dz/"
+  },
+  {
+    "name": "Volz",
+    "foundedYear": 2022,
+    "categoryId": "logistics",
+    "website": "https://volz.app",
+    "linkedin": "https://www.linkedin.com/company/volz-dz/"
+  },
+  {
+    "name": "Wajeez",
+    "foundedYear": 2018,
+    "categoryId": "logistics",
+    "website": "https://wajeez.dz/en/",
+    "linkedin": "https://www.linkedin.com/company/wajeez-food-beeper/"
+  },
+  {
+    "name": "Yassir",
+    "foundedYear": 2017,
+    "categoryId": "logistics",
+    "website": "https://yassir.com",
+    "linkedin": "https://linkedin.com/company/yassir"
+  },
+  {
+    "name": "Yinvesti",
+    "foundedYear": 2023,
+    "categoryId": "fintech",
+    "website": "https://yinvesti.com",
+    "linkedin": "https://linkedin.com/company/yinvesti"
   }
 ]
