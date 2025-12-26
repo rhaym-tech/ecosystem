@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Emploitic",
+    "description": "Popular Algerian job portal",
+    "url": "https://www.emploitic.com"
+  },
+  {
+    "id": 2,
+    "name": "Trustme",
+    "description": "IT recrutement in Algeria",
+    "url": "https://www.trustme.work"
+  },
+  {
+    "id": 3,
+    "name": "EmploiPartner",
+    "description": "Algerian job portal",
+    "url": "https://www.emploipartner.com"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Jobs",
+    "description": "Jobs in Algeria",
+    "url": "https://www.linkedin.com/jobs/jobs-in-algeria"
+  },
+  {
+    "id": 5,
+    "name": "Algeria Job",
+    "description": "Jobs in Algeria",
+    "url": "https://www.algeriejob.com"
+  },
+  {
+    "id": 6,
+    "name": "Triemploi",
+    "description": "Jobs in Algeria",
+    "url": "https://triemploi.com"
+  }
+]
+
