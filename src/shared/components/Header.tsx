@@ -1,4 +1,4 @@
-import { Rocket, Building2, Zap, Users, Radio, Briefcase, MessageCircle, Calendar, Plus } from 'lucide-react';
+import { Rocket, Building2, Zap, Users, Radio, Briefcase, MessageCircle, Calendar, BookOpen, Plus } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 
@@ -22,6 +22,7 @@ const Header = ({
     { path: '/jobs', label: 'Jobs', icon: Briefcase },
     { path: '/communities', label: 'Communities', icon: MessageCircle },
     { path: '/events', label: 'Events', icon: Calendar },
+    { path: '/resources', label: 'Resources', icon: BookOpen },
   ];
 
   return (
