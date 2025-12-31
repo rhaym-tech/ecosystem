@@ -7,7 +7,7 @@ export interface Startup {
   name: string;
   foundedYear: number;
   categoryIds: string[];
-  website: string;
+  website?: string;
   linkedin?: string;
 }
 

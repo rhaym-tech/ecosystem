@@ -1,43 +1,63 @@
 [
   {
+    "id": "agritech",
+    "name": "AgriTech"
+  },
+  {
     "id": "ai",
-    "name": "Artificial Intelligence"
+    "name": "AI"
   },
   {
-    "id": "fintech",
-    "name": "FinTech"
+    "id": "cloudtech",
+    "name": "CloudTech"
   },
   {
-    "id": "edtech",
-    "name": "EdTech"
-  },
-  {
-    "id": "healthtech",
-    "name": "HealthTech"
+    "id": "cybersecurity",
+    "name": "Cyber Security"
   },
   {
     "id": "ecommerce",
     "name": "E-Commerce"
   },
   {
-    "id": "logistics",
-    "name": "Logistics"
+    "id": "egov",
+    "name": "E-Gov"
   },
   {
-    "id": "agritech",
-    "name": "AgriTech"
+    "id": "edtech",
+    "name": "EdTech"
   },
   {
-    "id": "saas",
-    "name": "SaaS"
+    "id": "energy",
+    "name": "Energy"
   },
   {
-    "id": "marketplace",
-    "name": "Marketplace"
+    "id": "environmental",
+    "name": "Environmental Services"
   },
   {
-    "id": "legaltech",
-    "name": "LegalTech"
+    "id": "fashion",
+    "name": "Fashion"
+  },
+  {
+    "id": "fintech",
+    "name": "FinTech"
+  },
+  {
+    "id": "foodtech",
+    "name": "Food-Tech"
+  },
+  {
+    "id": "hardware",
+    "name": "Hardware Solutions"
+  },
+  {
+    "id": "healthtech",
+    "name": "HealthTech"
+  },
+  {
+    "id": "industrial",
+    "name": "Industrial"
   },
   {
     "id": "insurtech",
@@ -48,12 +68,51 @@
     "name": "IoT"
   },
   {
-    "id": "hardware",
-    "name": "Hardware Solutions"
+    "id": "legaltech",
+    "name": "LegalTech"
+  },
+  {
+    "id": "logistics",
+    "name": "Logistics"
+  },
+  {
+    "id": "marketplace",
+    "name": "Marketplace"
+  },
+  {
+    "id": "materials",
+    "name": "Materials"
+  },
+  {
+    "id": "mobility",
+    "name": "Mobility"
   },
   {
     "id": "realestate",
     "name": "Real Estate"
+  },
+  {
+    "id": "retail",
+    "name": "Retail"
+  },
+  {
+    "id": "robotics",
+    "name": "Robotics"
+  },
+  {
+    "id": "saas",
+    "name": "SaaS"
+  },
+  {
+    "id": "technology",
+    "name": "Technology"
+  },
+  {
+    "id": "vr",
+    "name": "Virtual Reality"
+  },
+  {
+    "id": "web3",
+    "name": "Web3"
   }
 ]
-
