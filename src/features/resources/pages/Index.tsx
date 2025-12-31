@@ -52,7 +52,7 @@ const Index = () => {
       <main className="container py-4 sm:py-6 px-4 sm:px-6">
         <Header 
           title="Resources"
-          description="Discover helpful resources for the Algerian startup ecosystem. Find official websites, statistics, developer tools, funding opportunities, and more."
+          description="Discover helpful resources for the Algerian ecosystem. Find websites that provides informations about the ecosystem, statistics, and more."
         />
         
         <section className="space-y-4 sm:space-y-6">
