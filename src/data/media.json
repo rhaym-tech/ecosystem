@@ -86,7 +86,7 @@
   {
     "title": "Podcast Tamayaz",
     "categoryId": 1,
-    "description": "بودكاست تَميَّز يستضيف شخصيات ناجحة أكاديميا لننقل تجاربهم، ونتناول بعضا من شخصيتهم ونبرزها أكثر ليتعرف عليهم الجمهور عن قرب أكثر ويكونوا مصدر إلهام لنا ولهم.",
+    "description": "بودكاست تَميَّز يستضيف شخصيات ناجحة أكاديميا لننقل تجاربهم، ويتناول بعضا من شخصيتهم ويبرزها أكثر ليتعرف عليهم الجمهور عن قرب أكثر ويكونوا مصدر إلهام لهم.",
     "url": "https://www.youtube.com/playlist?list=PLzcxxjzqdFrOLWpdgmdI8NEbuRaIOLnVt"
   },
   {
@@ -95,6 +95,20 @@
     "description": "بودكاست جزائري يشارك تجارب لشخصيات ناجحة.",
     "url": "https://www.youtube.com/playlist?list=PLBTyfxpJy0PduAD3N_M3i8EQ_G_8Slxrf",
     "image": "https://yt3.ggpht.com/SlseU1jFfCCb1jPKar86cQlUGOCEWWDpanZKi7j5Vv0M9T0i5v8izcqjosbddJSqhTH1CCzJ_g=s88-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "title": "1001 Tech",
+    "categoryId": 3,
+    "description": "A famous Algerian media source for technology news, reviews, and digital culture.",
+    "url": "https://www.facebook.com/1001DzTech",
+    "image": "https://scontent.fcfk1-2.fna.fbcdn.net/v/t39.30808-6/475312420_1186216756410270_1256986801853491777_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHnC6otzHxL5ygWk7A9gSZQciUKPnOzz2hyJQo-c7PPaJMIxrqDRP7fMFiSmOEglkhqk10bPzfbeEkoqgmYCcKA&_nc_ohc=AMQ5NeE54XcQ7kNvwEt7GDj&_nc_oc=Adn1tzvC7O0t78A4dToGWqaYRl6vwyQwEeBtqbpFqU-BJVN0XcPp72c2R8EqWLebTGY&_nc_zt=23&_nc_ht=scontent.fcfk1-2.fna&_nc_gid=5ak3dmhj69GhJmnz4kJt9w&oh=00_AfngDxR3JcgwU5qKRBRvEm9iegBabp0Ob-M6zMnd6QTQkQ&oe=695ABEC0"
+  },
+  {
+    "title": "The Algerian developer",
+    "categoryId": 3,
+    "description": "مشروع يهتم بالتقنية وتبسيطها من خلال منشورات، فيديوهات ونشاطات وتظاهرات تقنية في الميدان.",
+    "url": "https://www.facebook.com/TADeveloper1",
+    "image": "https://scontent.fcfk1-1.fna.fbcdn.net/v/t39.30808-6/559965161_1221918393289791_9033646952565800177_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHAh7uuwl7r49kyCxA6OkQlpgcMXe743gemBwxd7vjeBybPx_5LgLuhvtKQhCsYlFQjpKLkwUTUXRjR2Ek7l3cT&_nc_ohc=r5RYDmpKYmwQ7kNvwGyIFph&_nc_oc=Adm7agbOFa5dPunZeUh_E-IqJ5yazMJ88cFZxcQBfl12sK3w0fpwQ8z4Pr2_nvxqxL4&_nc_zt=23&_nc_ht=scontent.fcfk1-1.fna&_nc_gid=p-FUNDVdbulBFEcvN6BeCA&oh=00_AflifMlYRnNvwoWP6uwijX9ggmaFtppEmrxDMlpjlnuqgw&oe=695AA641"
   }
 ]
 
