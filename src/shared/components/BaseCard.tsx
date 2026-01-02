@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useLayoutEffect } from 'react';
 import { ExternalLink } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -6,7 +6,6 @@ interface BaseCardProps {
     name: string;
     description: string;
     url?: string;
-    truncationThreshold?: number;
     externalLinkLabel?: string;
     subtitle?: React.ReactNode;
     footer?: React.ReactNode;
@@ -17,7 +16,6 @@ const BaseCard = ({
     name,
     description,
     url,
-    truncationThreshold = 150,
     externalLinkLabel,
     subtitle,
     footer,
@@ -25,6 +23,26 @@ const BaseCard = ({
 }: BaseCardProps) => {
     const [imageError, setImageError] = useState(false);
     const [isExpanded, setIsExpanded] = useState(false);
+    const [isClamped, setIsClamped] = useState(false);
+    const descriptionRef = useRef<HTMLParagraphElement>(null);
+
+    useLayoutEffect(() => {
+        const checkClamping = () => {
+            const element = descriptionRef.current;
+            if (element) {
+                // Check if the content is actually overflowing its container
+                const isOverflowing = element.scrollHeight > element.clientHeight;
+                setIsClamped(isOverflowing);
+            }
+        };
+
+        // Initial check
+        checkClamping();
+
+        // Optional: Re-check on window resize if needed
+        window.addEventListener('resize', checkClamping);
+        return () => window.removeEventListener('resize', checkClamping);
+    }, [description, isExpanded]); // Re-run if description changes or expansion state changes
 
     let domain = '';
     if (url) {
@@ -37,8 +55,6 @@ const BaseCard = ({
         }
     }
     const faviconUrl = domain ? `https://fetchfavicon.com/i/${domain}?size=64` : '';
-
-    const needsTruncation = description.length > truncationThreshold;
 
     return (
         <article className={cn(
@@ -64,13 +80,16 @@ const BaseCard = ({
                         {name}
                     </h3>
                     {subtitle}
-                    <p className={cn(
-                        "text-sm text-muted-foreground",
-                        !isExpanded && "line-clamp-3"
-                    )}>
+                    <p
+                        ref={descriptionRef}
+                        className={cn(
+                            "text-sm text-muted-foreground",
+                            !isExpanded && "line-clamp-3"
+                        )}
+                    >
                         {description}
                     </p>
-                    {needsTruncation && (
+                    {(isClamped || isExpanded) && (
                         <button
                             onClick={() => setIsExpanded(!isExpanded)}
                             className="mt-1 text-xs text-primary hover:text-primary/80 font-medium transition-colors inline-block"

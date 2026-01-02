@@ -11,7 +11,6 @@ const EventCard = ({ event }: EventCardProps) => {
       name={event.name}
       description={event.description}
       url={event.url}
-      truncationThreshold={100}
     />
   );
 };
