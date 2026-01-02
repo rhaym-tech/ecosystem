@@ -18,13 +18,10 @@ const AcceleratorCard = ({ accelerator }: AcceleratorCardProps) => {
     domain = '';
   }
   const faviconUrl = domain ? `https://fetchfavicon.com/i/${domain}?size=64` : '';
-  
-  // Check if description is long enough to need truncation (approximately 100 characters for 2 lines)
-  const needsTruncation = accelerator.description.length > 100;
-  const displayDescription = isExpanded || !needsTruncation 
-    ? accelerator.description 
-    : accelerator.description.substring(0, 100);
-  
+
+  // Check if description is long enough to need truncation (approximately 150 characters for 3 lines)
+  const needsTruncation = accelerator.description.length > 150;
+
   return (
     <article className="group relative bg-card rounded-2xl border border-border/60 p-6 transition-all duration-300 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1">
       <div className="flex items-start gap-4 mb-5">
@@ -51,19 +48,17 @@ const AcceleratorCard = ({ accelerator }: AcceleratorCardProps) => {
               {accelerator.city}
             </p>
           )}
-          <p className="text-sm text-muted-foreground">
-            {displayDescription}
-            {needsTruncation && !isExpanded && '... '}
-            {needsTruncation && isExpanded && ' '}
-            {needsTruncation && (
-              <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="text-xs text-primary hover:text-primary/80 font-medium transition-colors inline"
-              >
-                {isExpanded ? 'Show less' : 'Show more'}
-              </button>
-            )}
+          <p className={`text-sm text-muted-foreground ${!isExpanded ? 'line-clamp-3' : ''}`}>
+            {accelerator.description}
           </p>
+          {needsTruncation && (
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="mt-1 text-xs text-primary hover:text-primary/80 font-medium transition-colors inline-block"
+            >
+              {isExpanded ? 'Show less' : 'Show more'}
+            </button>
+          )}
         </div>
 
         {accelerator.website && (
@@ -87,7 +82,7 @@ const AcceleratorCard = ({ accelerator }: AcceleratorCardProps) => {
             <p className="text-sm font-semibold text-foreground">{accelerator.foundedYear}</p>
           </div>
         </div>
-        
+
         <div className="flex items-center gap-2">
           {accelerator.mapLocation && (
             <a

@@ -11,12 +11,9 @@ const CommunityCard = ({ community }: CommunityCardProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const domain = new URL(community.url).hostname.replace(/^www\./, '');
   const faviconUrl = `https://fetchfavicon.com/i/${domain}?size=64`;
-  
-  const needsTruncation = community.description.length > 100;
-  const displayDescription = isExpanded || !needsTruncation 
-    ? community.description 
-    : community.description.substring(0, 100);
-  
+
+  const needsTruncation = community.description.length > 150;
+
   return (
     <article className="group relative bg-card rounded-2xl border border-border/60 p-6 transition-all duration-300 hover:border-primary/40 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1">
       <div className="flex items-start gap-4 mb-5">
@@ -37,19 +34,17 @@ const CommunityCard = ({ community }: CommunityCardProps) => {
           <h3 className="font-bold text-lg text-card-foreground truncate mb-1 group-hover:text-primary transition-colors duration-300">
             {community.name}
           </h3>
-          <p className="text-sm text-muted-foreground">
-            {displayDescription}
-            {needsTruncation && !isExpanded && '... '}
-            {needsTruncation && isExpanded && ' '}
-            {needsTruncation && (
-              <button
-                onClick={() => setIsExpanded(!isExpanded)}
-                className="text-xs text-primary hover:text-primary/80 font-medium transition-colors inline"
-              >
-                {isExpanded ? 'Show less' : 'Show more'}
-              </button>
-            )}
+          <p className={`text-sm text-muted-foreground ${!isExpanded ? 'line-clamp-3' : ''}`}>
+            {community.description}
           </p>
+          {needsTruncation && (
+            <button
+              onClick={() => setIsExpanded(!isExpanded)}
+              className="mt-1 text-xs text-primary hover:text-primary/80 font-medium transition-colors inline-block"
+            >
+              {isExpanded ? 'Show less' : 'Show more'}
+            </button>
+          )}
         </div>
 
         <a
